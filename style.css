@@ -1,0 +1,193 @@
+body {
+	min-height: 100%;
+	margin: 0;
+	font-family: 
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.block {
+	margin-bottom: 10px;
+	padding: 10px;
+	min-height: 70px;
+	box-sizing: border-box;
+}
+
+main .block:first-child{
+	border-bottom: 1px solid black;
+}
+
+.container {
+		display: flex;
+		font-size: 20px;
+
+}
+
+.flex1 {
+	margin: 60px 30px -10px -10px;
+	justify-content: flex-start;
+}
+
+.flex2 {
+	margin: 55px 30px -10px 0;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.flex3 {
+	
+	margin: 55px -10px -10px  0;
+	cursor: pointer;
+}
+
+.container a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 2px 0px;
+}
+
+.flex1 a:hover {
+	background-color: #F7F7F7;
+	border-radius: 3px;
+}
+
+.container p {
+	margin-left: 155px;
+	margin-bottom: -10px;	
+}
+
+.container input {
+	border: 0;
+	border-radius: 3px;
+	background-color: #567B95; 
+	font-weight: 600;
+	color: white;
+}
+
+.container input:hover {
+	background-color: #326891; 
+}
+
+.column0 {
+	width: 75%;
+	margin: 0 auto;
+	min-height: 600px;
+	background: url("Images/snow_1280.jpg") 60% bottom;
+	margin-bottom: 10px;
+}
+
+.column0 h1 {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	margin-top: 330px;
+	color: white;
+	background-color: rgba(	86, 123, 149, 0.5); 
+}
+
+form {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.d1 input {
+  width: 94%;
+  height: 50px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #9E9C9C;
+  margin-top: 70px;
+}
+
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 52px;
+  border: none;
+  background: #567B95;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-right: -1px;
+  padding: 5px;
+  
+}
+.d1 button:before {
+  content: url("Images/noun_Search_1857565.svg");
+  color: white;
+}
+
+.column3 {
+	display: flex;
+	clear: both;
+	height: 1300px;
+	margin-right: 10px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	min-height: auto;
+	background-color: rgba(86, 123, 149, 0.5);
+	color: white;
+}
+
+.footer1 {
+	display: flex;
+	width: 60%;
+	background-color: #567B95;
+	padding: 50px 0 0 11%;
+}
+
+.footer2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 40px;
+	background-color: #567B95;
+	width: 40%;
+}
+
+.footer1 div {
+	width: 25%;
+	color: #244761;
+}
+
+.footer1 div p {
+	padding-bottom: 10px;
+	font-weight: 500;
+	color: white;
+}
+
+.paddingTwo {
+	padding: 0px 26% 30px 0;
+	margin-left: auto;
+}
+
+.paddingTwo img {
+	padding-left: 10px;
+
+}
+
+.footer1 a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer1 a:hover {
+	background-color: #326891;
+	border-radius: 3px;	
+}
